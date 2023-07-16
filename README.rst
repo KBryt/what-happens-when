@@ -689,6 +689,18 @@ the Google homepage. Scripts can cause additional network requests to be
 performed, as well as modify the page or its layout, causing another round of
 page rendering and painting.
 
+Application Server
+------------------
+
+If the website you are trying to access has dynamic content, such as user-generated data, 
+the web server will pass the request to an application server. The application server is 
+responsible for processing the request, retrieving the necessary data from the database, 
+and generating a response that can be sent back to the web server. Application servers are 
+essential for websites that need to process user input, such as social media platforms, 
+e-commerce sites, and online games. The application server, such as Tomcat or Node.js, 
+executes server-side logic and interacts with databases or other external systems. 
+In Google’s case, the application server might process search queries or perform personalized operations.
+
 .. _`Creative Commons Zero`: https://creativecommons.org/publicdomain/zero/1.0/
 .. _`"CSS lexical and syntax grammar"`: http://www.w3.org/TR/CSS2/grammar.html
 .. _`Punycode`: https://en.wikipedia.org/wiki/Punycode
